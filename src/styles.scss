@@ -1,8 +1,5 @@
 @import "./styles/fonts.scss";
 
-body {
-    //font-family: Graphik;
-}
 
 .container {
     height: 450px;
@@ -42,15 +39,18 @@ body {
         font-size: 15px;
         padding: 0;
         margin-top: 1em;
-    
-
         cursor: pointer;
-        img {
-            position: relative;
-            top: 5px;
-            margin-right: 10px;
-            transform: rotate(45deg);
-        }
+
+    }
+    img {
+        position: relative;
+        top: 5px;
+        margin-right: 10px;
+        transform: rotate(45deg);
+    }
+
+    .button-container {
+        cursor: pointer;
     }
 }
 
@@ -67,6 +67,14 @@ main {
     padding: 2em;
     font-family: 'Graphik-Regular';
     line-height: 1.5em;
+}
+
+.light {
+    background: #5031AA;
+}
+
+.dark {
+    background: #231e32;
 }
 
 
