@@ -1,1 +1,62 @@
 @import "./styles/fonts.scss";
+
+body {
+    //font-family: Graphik;
+}
+
+.container {
+    height: 500px;
+    width: 400px;
+    background: #5031AA;
+    color: white;
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    bottom: 2em;
+    left: 3em;
+
+    .title {
+      font-weight: 600;
+      font-family: 'Graphik';
+      margin-bottom: 0.5em;
+      font-size: 25px;
+      letter-spacing: 0.7px;
+    }
+    
+    .subtitle {
+      font-weight: 200;
+      font-weight: normal;
+      font-size: 18px;
+      margin-top: 0;
+      font-family: 'Graphik-Regular';
+      letter-spacing: 0.6px;
+    }
+
+    button {
+        background: #5031AA;
+        font-family: 'Graphik-Regular';
+        color: white;
+        border: none;
+        font-size: 15px;
+        padding: 0;
+        margin-top: 1em;
+    
+
+        cursor: pointer;
+        img {
+            position: relative;
+            top: 5px;
+            margin-right: 10px;
+            transform: rotate(45deg);
+        }
+    }
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
