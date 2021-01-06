@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementsByClassName('container')[0];
   const image = document.getElementById('button-image');
 
-  
+
   //show/hide content 
   function showHide(){
     description.classList.toggle('hide');

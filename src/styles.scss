@@ -1,10 +1,16 @@
 @import "./styles/fonts.scss";
 
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
 
 .container {
     height: 450px;
     width: auto;
-    background: #5031AA;
+    //background: #5031AA;
     color: white;
     position: relative;
     margin: 100px auto;
@@ -33,7 +39,6 @@
     }
 
     button {
-        background: #5031AA;
         font-family: 'Graphik-Regular';
         color: white;
         border: none;
@@ -55,12 +60,7 @@
     }
 }
 
-main {
-    width: 60%;
-    margin: 0 auto;
-    @media screen and (max-width: 768px) {
-        width: 90%;
-    }
+
 }
 
 .hide {
@@ -78,7 +78,7 @@ main {
 }
 
 .dark {
-    background: #231e32;
-}
+    background: #231E32;
+} 
 
 
